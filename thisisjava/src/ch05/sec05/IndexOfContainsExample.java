@@ -8,6 +8,7 @@ public class IndexOfContainsExample {
 		System.out.println(location);
 		String substring = subject.substring(location);
 		System.out.println(substring);
+		System.out.println(subject);
 		
 		location = subject.indexOf("자바");
 		if(location != -1) {

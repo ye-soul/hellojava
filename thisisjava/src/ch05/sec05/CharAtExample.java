@@ -2,7 +2,7 @@ package ch05.sec05;
 
 public class CharAtExample {
 	public static void main(String[] args) {
-		String ssn = "0106241230123";
+		String ssn = "0106244230123";
 		char sex = ssn.charAt(6);
 		switch (sex) {
 			case '1':

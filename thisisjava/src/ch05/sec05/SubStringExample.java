@@ -9,5 +9,9 @@ public class SubStringExample {
 		
 		String secondNum = ssn.substring(7);
 		System.out.println(secondNum);
+		
+		int num = ssn.indexOf("34567");  //9번째부터 시작
+		System.out.println(num);
+				
 	}
 }
