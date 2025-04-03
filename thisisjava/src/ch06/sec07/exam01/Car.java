@@ -4,5 +4,7 @@ public class Car {
 	//생성자
 	Car(String model, String color, int maxSpeed) {
 	}
+	
+	Car(Stirng model, int maxspeed, String color)
 }
 

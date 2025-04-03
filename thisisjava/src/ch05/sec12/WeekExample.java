@@ -25,10 +25,10 @@ public class WeekExample {
 		}
 		
 		//열거 타입 변수를 사용
-		if(today == Week.SUNDAY) {
-			System.out.println("일요일에는 축구를 합니다.");
+		if(today == Week.SUNDAY || today == Week.SATURDAY) {
+			System.out.println("토요일과 일요일에는 축구를 합니다.");
 		} else {
-			System.out.println("열심히 자바 공부합니다.");
+			System.out.println("열심히 자바 공부합니다." + today);
 		}
 	}
 }
