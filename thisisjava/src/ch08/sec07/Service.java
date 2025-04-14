@@ -28,8 +28,7 @@ public interface Service {
 		System.out.println("staticMethod2 종속 코드");
 		staticCommon();
 	}
-	
-	//private 정적 메소드
+	0ate 정적 메소드
 	private static void staticCommon() {
 		System.out.println("staticMethod 중복 코드C");
 		System.out.println("staticMethod 중복 코드D");
